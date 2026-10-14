@@ -5,3 +5,4 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 omicsclass/gene-family:v2.0
+docker run -m 10G --cpus 2 --rm -v D:/gene-family:/work -it omicsclass/gene-family:v2.0
